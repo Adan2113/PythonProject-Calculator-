@@ -1,12 +1,12 @@
-## 🧮 Telegram Bot: Hybrid Calculator-4000
+# 🧮 Telegram Bot: Hybrid Calculator-4000
 
-### 📌 About the Project
+## 📌 About the Project
 This project is a hybrid Telegram chatbot that functions as a fully interactive calculator. 
 Unlike standard chatbots that spam the chat history with text replies, this project implements a **UI-based (Single-Screen) approach**. It dynamically updates a single message using the Telegram API, mimicking the screen of a real physical calculator.
 
 This project was developed as a final assignment for the "Programming in Python" course.
 
-### 🚀 Key Features
+## 🚀 Key Features
 * **Interactive UI:** A custom mathematical keyboard via `ReplyKeyboardMarkup`.
 * **Dynamic Screen:** Updates calculations on the same message without cluttering the chat history.
 * **Session Management:** Supports multiple users simultaneously by isolating states using `chat_id`.
@@ -25,3 +25,23 @@ This project was developed as a final assignment for the "Programming in Python"
    ```bash
    git clone https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME.git
    cd YOUR_REPO_NAME
+   
+### Create and activate a virtual environment:
+
+python -m venv .venv
+## On Windows:
+.venv\Scripts\activate
+## On Mac/Linux:
+source .venv/bin/activate
+## Install dependencies:
+
+pip install -r requirements.txt
+## Configuration:
+
+### Open main.py and replace "YOUR_TELEGRAM_BOT_TOKEN" with your actual bot token.
+## Apply database migrations (Django):
+
+python manage.py migrate
+## Run the bot:
+
+python main.py
