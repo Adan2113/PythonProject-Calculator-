@@ -23,8 +23,8 @@ This project was developed as a final assignment for the "Programming in Python"
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME.git
-   cd YOUR_REPO_NAME
+   git clone https://github.com/Adan2113/PythonProject-Calculator-#
+   cd PythonProject-Calculator-
    
 ### Create and activate a virtual environment:
 
@@ -38,7 +38,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ## Configuration:
 
- Open main.py and replace "YOUR_TELEGRAM_BOT_TOKEN" with your actual bot token.
+ Open main.py and replace "YOUR_TELEGRAM_BOT_TOKEN" with your actual bot token. free token: 8589994567:AAFPTi6tozdBbtG_kd105MMy22kaNmL9LRU
 ## Apply database migrations (Django):
 
 python manage.py migrate
