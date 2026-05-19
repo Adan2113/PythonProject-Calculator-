@@ -38,7 +38,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ## Configuration:
 
-### Open main.py and replace "YOUR_TELEGRAM_BOT_TOKEN" with your actual bot token.
+ Open main.py and replace "YOUR_TELEGRAM_BOT_TOKEN" with your actual bot token.
 ## Apply database migrations (Django):
 
 python manage.py migrate
