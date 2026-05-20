@@ -13,7 +13,7 @@ This project was developed as a final assignment for the "Programming in Python"
 * **Exception Handling:** Prevents bot crashes from invalid inputs (e.g., division by zero, syntax errors).
 * **Database Logging:** Uses **Django ORM** and **SQLite** as a backend to securely log all user requests and calculation results.
 
-## 🛠Technology Stack
+## Technology Stack
 * **Python 3.x** - Main programming language.
 * **pyTelegramBotAPI (telebot)** - Interaction with the Telegram API.
 * **Numexpr** - Fast and secure evaluation of string mathematical expressions.
