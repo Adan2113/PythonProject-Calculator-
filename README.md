@@ -1,31 +1,14 @@
-# Telegram Bot: Hybrid Calculator-4000
+# Calculator4000
 
-## About the Project
-This project is a hybrid Telegram chatbot that functions as a fully interactive calculator. 
-Unlike standard chatbots that spam the chat history with text replies, this project implements a **UI-based (Single-Screen) approach**. It dynamically updates a single message using the Telegram API, mimicking the screen of a real physical calculator.
+## Instalation and launch
 
-This project was developed as a final assignment for the "Programming in Python" course.
+(Python v3.x) Copy to the terminal:
 
-## Key Features
-* **Interactive UI:** A custom mathematical keyboard via `ReplyKeyboardMarkup`.
-* **Dynamic Screen:** Updates calculations on the same message without cluttering the chat history.
-* **Session Management:** Supports multiple users simultaneously by isolating states using `chat_id`.
-* **Exception Handling:** Prevents bot crashes from invalid inputs (e.g., division by zero, syntax errors).
-* **Database Logging:** Uses **Django ORM** and **SQLite** as a backend to securely log all user requests and calculation results.
 
-## Technology Stack
-* **Python 3.x** - Main programming language.
-* **pyTelegramBotAPI (telebot)** - Interaction with the Telegram API.
-* **Numexpr** - Fast and secure evaluation of string mathematical expressions.
-* **Django ORM** - Database management and automated admin panel creation.
+git clone https://github.com/Adan2113/PythonProject-Calculator-#
 
-## Installation and Setup
+cd PythonProject-Calculator-
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/Adan2113/PythonProject-Calculator-#
-   cd PythonProject-Calculator-
-   
 ### Create and activate a virtual environment:
 
 python -m venv .venv
@@ -36,20 +19,61 @@ source .venv/bin/activate
 ## Install dependencies:
 
 pip install -r requirements
-## Configuration:
 
- Open main.py and replace "YOUR_TELEGRAM_BOT_TOKEN" with your actual bot token. free token: 8589994567:AAFPTi6tozdBbtG_kd105MMy22kaNmL9LRU
-## Apply database migrations (Django):
+## Configuration and running:
+
+ Open main.py and replace "TELEGRAM-BOT-TOKEN" with your actual bot token. free token: 8589994567:AAFPTi6tozdBbtG_kd105MMy22kaNmL9LRU
+### Apply database migrations (Django):
 
 python manage.py migrate
-## Run the bot:
+## Run the bot and server:
 
 python main.py
+python manage.py runserver
 
-<img width="715" height="200" alt="Снимок экрана 2026-05-19 175035" src="https://github.com/user-attachments/assets/b16f59e2-a9fb-4fce-bb1a-4ecda5a721dd" />
-<img width="413" height="327" alt="Снимок экрана 2026-05-19 174942" src="https://github.com/user-attachments/assets/69253697-1616-41ae-90a7-850e6a0682ac" />
-<img width="892" height="167" alt="image" src="https://github.com/user-attachments/assets/a1ba61fb-ad10-45fe-9411-15a4dd932e8c" />
-<img width="746" height="217" alt="Снимок экрана 2026-05-19 174926" src="https://github.com/user-attachments/assets/1a9e8b81-509c-43d0-9f3e-2c4fe30eb4ec" />
+Using only python for logic. There are pack of libraries:
+
+django
+telebot
+numexpr
+
+## User interface: Telegram chat
+
+## Logic of chat-bot
+
+### Django setup and initialization
+
+<img width="702" height="204" alt="image" src="https://github.com/user-attachments/assets/333b256d-0405-4369-ba0d-68c2089850f2" />
+
+### Setup of calculator interface 
+
+<img width="774" height="278" alt="image" src="https://github.com/user-attachments/assets/f2ba5fa8-062d-4287-858f-e6c0ee701b0e" />
+
+### Message update and screen revive
+
+<img width="786" height="448" alt="image" src="https://github.com/user-attachments/assets/25e95a17-3e9e-4ac5-837e-3a2cf0561f79" />
+
+### Processing
+
+<img width="863" height="186" alt="image" src="https://github.com/user-attachments/assets/1a42e086-b5fe-43c8-a519-fb0d21533add" />
+
+### Calculation and save to DB
+
+<img width="563" height="244" alt="image" src="https://github.com/user-attachments/assets/541dac90-54ce-4204-b471-701bf6a3895e" />
+
+### Error handing
+
+<img width="715" height="98" alt="Снимок экрана 2026-05-20 071728" src="https://github.com/user-attachments/assets/fba73ce2-ab3f-4882-adb0-eb3d0bf9670a" />
+<img width="718" height="110" alt="Снимок экрана 2026-05-20 071734" src="https://github.com/user-attachments/assets/15b9dafc-8131-4e15-bb3b-97a3153fe303" />
+
+### Data storage:
+
+<img width="1919" height="944" alt="image" src="https://github.com/user-attachments/assets/97b5c6ef-b536-4584-b7d1-a5fb90d79bef" />
+
+### Interface
+
+<img width="1251" height="940" alt="image" src="https://github.com/user-attachments/assets/4390d024-61c2-4e1f-9688-9666ac390c29" />
+<img width="597" height="502" alt="image" src="https://github.com/user-attachments/assets/6d14f86a-c2a0-43c6-a030-090c7aae4ab1" />
 
 
 
