@@ -47,4 +47,9 @@ python manage.py migrate
 python main.py
 
 <img width="715" height="200" alt="Снимок экрана 2026-05-19 175035" src="https://github.com/user-attachments/assets/b16f59e2-a9fb-4fce-bb1a-4ecda5a721dd" />
+<img width="413" height="327" alt="Снимок экрана 2026-05-19 174942" src="https://github.com/user-attachments/assets/69253697-1616-41ae-90a7-850e6a0682ac" />
+<img width="892" height="167" alt="image" src="https://github.com/user-attachments/assets/a1ba61fb-ad10-45fe-9411-15a4dd932e8c" />
+<img width="746" height="217" alt="Снимок экрана 2026-05-19 174926" src="https://github.com/user-attachments/assets/1a9e8b81-509c-43d0-9f3e-2c4fe30eb4ec" />
+
+
 
